@@ -1,0 +1,36 @@
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\GameEngine.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\sfmlnet-audio-2.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\sfmlnet-system-2.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\bin\Debug\sfmlnet-window-2.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\obj\Debug\GameEngine.dll
+C:\Users\eltonn\Downloads\mario-107179\Mario\GameEngine\obj\Debug\GameEngine.pdb
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\GameEngine.dll
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\GameEngine.pdb
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\sfmlnet-audio-2.dll
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\sfmlnet-graphics-2.dll
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\sfmlnet-system-2.dll
+C:\Games Selecionados\Mario\GameEngine\bin\Debug\sfmlnet-window-2.dll
+C:\Games Selecionados\Mario\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Games Selecionados\Mario\GameEngine\obj\Debug\GameEngine.dll
+C:\Games Selecionados\Mario\GameEngine\obj\Debug\GameEngine.pdb
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\GameEngine.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\sfmlnet-audio-2.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\sfmlnet-system-2.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\bin\Debug\sfmlnet-window-2.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\obj\Debug\GameEngine.dll
+C:\Users\thiag\Dropbox\UnB\Trabalho de Graduação\Mario\GameEngine\obj\Debug\GameEngine.pdb
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\GameEngine.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\GameEngine.pdb
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\sfmlnet-audio-2.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\sfmlnet-graphics-2.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\sfmlnet-system-2.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\bin\Debug\sfmlnet-window-2.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\obj\Debug\GameEngine.csprojResolveAssemblyReference.cache
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\obj\Debug\GameEngine.dll
+C:\Users\thiag\Documents\GitHubRep\Mario\GameEngine\obj\Debug\GameEngine.pdb
