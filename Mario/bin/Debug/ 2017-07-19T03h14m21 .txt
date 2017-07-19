@@ -1,0 +1,17 @@
+  GameTime  PlayLife     Score    Action      PosX      PosY
+     101       3           0    Begin Game     192      640
+     102       3           0    MOVE RIGHT     212      640
+     103       3           0    MOVE RIGHT     222      640
+     104       3           0    MOVE RIGHT     352      640
+     105       3           0     MOVE LEFT     382      640
+     106       3           0    MOVE RIGHT     392      640
+     107       3           0    MOVE RIGHT     392      640
+     108       3           0    MOVE RIGHT     392      640
+     109       3           0    MOVE RIGHT     392      640
+     110       3           0     MOVE LEFT     382      640
+     111       3           0    MOVE RIGHT     392      640
+     112       3           0    MOVE RIGHT     402      640
+     113       3           0    MOVE RIGHT     422      640
+     114       3           0    MOVE RIGHT     432      640
+     115       3           0    MOVE RIGHT     432      640
+     116       3           0      MOVE DIE     432      640

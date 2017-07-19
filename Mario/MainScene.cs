@@ -9,6 +9,7 @@ using SFML.Window;
 using SFML.System;
 using System.IO; //to write in file
 
+
 namespace Mario
 {
     public class MainScene : Scene
@@ -27,6 +28,8 @@ namespace Mario
         private string data = "";//data to save in .txt file
         private string file = "";//name the file
         public int currentLevel = 1;
+        private int positionX = 0;
+        
 
 
         public MainScene(GameObject gameObject): base(gameObject)   //chama construtor da classe base, no caso, Scene.
@@ -60,6 +63,7 @@ namespace Mario
             Characters.Mario mario = new Characters.Mario(this._gameObject);
             player = mario;
             this.Entities.Add(player);
+            positionX = player.X;
 
             ResourceManager.Instance.PlaySound("music-1");
 
@@ -90,7 +94,7 @@ namespace Mario
             actionCurrent = action;
             if (timeCounterTracking != timeCounter || timeCounterTracking == MAX_TIME)
             {
-                string newData = String.Format("{0,8}{1,8}{2,12}{3,14}", MAX_TIME - timeCounter , PlayerLives, Score, action);
+                string newData = String.Format("{0,8}{1,8}{2,12}{3,14}{4,8}{5,9}", MAX_TIME - timeCounter , PlayerLives, Score, action, positionX, player.Y);
                 data += newData + Environment.NewLine;
                 Console.WriteLine(newData);
             }
@@ -99,13 +103,14 @@ namespace Mario
 
         public void SetTracking()
         {
-            string headerData = String.Format("{0,10}{1,10}{2,10}{3,10}", "GameTime", "PlayLife", "Score", "Action");
+            string headerData = String.Format("{0,10}{1,10}{2,10}{3,10}{4,10}{5,10}", "GameTime", "PlayLife", "Score", "Action", "PosX", "PosY");
             data += headerData + Environment.NewLine;
             Console.WriteLine(headerData); //Headings
         }
 
         public override void HandleKeyPress(KeyEventArgs e)
         {
+            //Console.WriteLine("o que aparece em code: -"+string(e.Code)+"-");
             if (e.Code == Keyboard.Key.P)
             {
                 if (!this.IsPaused)
@@ -129,6 +134,7 @@ namespace Mario
                 actionCurrent = "MOVE RIGHT";
                 player.Facing = Direction.RIGHT;
                 player.IsMoving = true;
+                positionX += 10;
                
             }
 
@@ -138,7 +144,7 @@ namespace Mario
                 actionCurrent = "MOVE LEFT";
                 player.Facing = Direction.LEFT;
                 player.IsMoving = true;
-                
+                positionX -= 10;
             }
 
             if (e.Code == Keyboard.Key.Space && player.IsJumping == false)
@@ -403,6 +409,7 @@ namespace Mario
                     case "smallcastle": c = new Characters.SmallCastle(this._gameObject); break;
                     case "coin": c = new Characters.Coin(this._gameObject); break;
                     case "coinbounce": c = new Characters.CoinBounce(this._gameObject); break;
+                    case "piranhaplant": c = new Characters.PiranhaPlant(this._gameObject);break;
                 }
 
                 c.X = e.X;

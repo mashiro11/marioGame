@@ -77,10 +77,14 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WebCam_Capture">
+      <HintPath>..\..\..\Instaladores\EasyWebCam\WebCam_Capture.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Block.cs" />
     <Compile Include="Entities\Brick.cs" />
+    <Compile Include="Entities\PiranhaPlant.cs" />
     <Compile Include="Entities\Coin.cs" />
     <Compile Include="Entities\CoinBounce.cs" />
     <Compile Include="Entities\CoinBox.cs" />

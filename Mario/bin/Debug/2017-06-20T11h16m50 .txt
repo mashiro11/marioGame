@@ -1,4 +1,0 @@
-  GameTime  PlayLife     Score    Action
-       0       3           0    Begin Game
-       0       3           0    MOVE RIGHT
-       1       3           0     MOVE JUMP
